@@ -1,0 +1,37 @@
+{
+  "name": "dailyplan",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "install-all": "npm install && bower install"
+  },
+  "author": "Vladimir Bolshakov <andersdeath@yandex.ru>",
+  "license": "BSD",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-bower-src": "^0.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-main-bower-files": "^1.6.1",
+    "gulp-ng-html2js": "^0.2.2",
+    "gulp-pug": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.2"
+  },
+  "projectSettings": {
+    "mainModule": "stTest",
+    "srcDir": "./src",
+    "buildDir": "./dist"
+  },
+  "tmpDir": "tmp"
+}
